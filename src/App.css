@@ -1,55 +1,66 @@
+/* *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+} */
+
 .flexbox-container{
-  display: flex;
+  display:flex;
 }
 
 
 .flexbox-container div{
-  width: 350px;
-  height: 150px;
-  margin: 30px 50px;
-  line-height: 250px;
+  width: 435px;
+  height: 100px;
+  margin: 15px 0 15px 15px;
+  
+  
    
 } 
 .flexbox-item-1{
   background-color: rgb(0, 0, 0);
-  border-radius: 5px;
+  border-radius: 1px;
+  width: 20px;
 }
 
 .flexbox-item-2{
-  border-radius:  5px;
+  border-radius:  1px;
   background-color: rgb(0, 148, 94);
+  width: 200px;
 }
 
 
 .flexbox-item-3{
   background-color: rgb(7, 87, 76);
-  border-radius: 5px;
+  border-radius: 1px;
+  width: 200px;
 }
 
 
 .long-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .long-container div{
-  width: 350px;
-  height: 500x;
-  
-  margin: 30px 50px;
-  line-height: 250px;
+  width: 300px;
+  height: 110x;
+  margin: 15px;
+  margin-top: 1px;
+  /* line-height: 250px; */
   
 }
 
 .long-item-1{
   background-color: rgb(83, 142, 252);
-  border-radius: 5px;
-  height: 550px;
-  width: 250px;
+  border-radius: 1px;
+  height: 425px;
+  width: 50px;
 }
 
 .long-item-2{
   background-color: rgb(235, 44, 177);
-  border-radius: 70%;
+  border-radius: 200%;
   height: 300px;
   align-self: center;
   
@@ -57,14 +68,16 @@
 
 .long-item-3{
   background-color: rgb(201, 142, 142);
-  border-radius: 5px;
-  height: 550px;
+  border-radius: 1px;
+  height: 425px;
   width: 250px;
 }
 
 .short-container{
+
+  margin: 1px 15px;
   background-color: rgb(173, 43, 43);
-  height: 100px;
+  height: 84px;
 
 }
 
